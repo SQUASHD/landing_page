@@ -30,6 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 48px;
+    margin-top: 10px;
 }
 
 .header-logo {
@@ -82,11 +83,14 @@ a {
     margin-bottom: 10px;
 }
 
-button.sign-up-button {
+.sign-up-button {
     background-color: #3882f6;
     color: white;
-    padding: 3px;
-    width: 100px;
+    padding: 8px;
+    width: 80px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .right-top-content {
@@ -123,6 +127,7 @@ button.sign-up-button {
 .first-white-box-container {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 .white-info-box {
