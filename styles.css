@@ -150,8 +150,8 @@ a.sign-up-text {
 .round-box {
     border-radius: 25px;
     border: solid #3882f6 3px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 10px;
 }
 
@@ -235,4 +235,16 @@ a.sign-up-text {
     height: 12px;
     width: 100px;
     padding: 10px;
+}
+
+.footer-container {
+    background-color: #1f2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
 }
