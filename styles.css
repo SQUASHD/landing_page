@@ -46,10 +46,17 @@ ul {
     gap: 10px;
     margin: 0;
 }
-
-a {
+a,
+a.header {
     text-decoration: none;
-    color: #e5e7eb;
+}
+
+a.header {
+    color: #e5e7eb
+}
+
+a.sign-up-text {
+    color: white;
 }
 
 .top-content-container {
@@ -84,6 +91,7 @@ a {
 }
 
 .sign-up-button {
+    text-decoration: none;
     background-color: #3882f6;
     color: white;
     padding: 8px;
@@ -91,6 +99,7 @@ a {
     border-radius: 10px;
     text-align: center;
     margin-top: 10px;
+    color: white;
 }
 
 .right-top-content {
@@ -185,4 +194,45 @@ a {
     display: flex;
     flex-direction: column;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-call-to-action-container {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 140px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+}
+
+.blue-call-to-action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-call-to-action-text-header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.blue-call-to-action-text-body {
+    font-weight: 300;
+}
+
+.sign-up-button.white-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid white 3px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 12px;
+    width: 100px;
+    padding: 10px;
 }
